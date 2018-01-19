@@ -1,4 +1,6 @@
-<h2>Hello World</h2>
+<h2>Welcome to the home page of the finance tracker app</h2>
 <p>
   The time is now: <%= Time.now %>
 </p>
+
+<%= link_to 'logout', destroy_user_session_path, method: :delete %>
