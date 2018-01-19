@@ -52,3 +52,4 @@ production:
   database: finance-tracker_production
   username: finance-tracker
   password: <%= ENV['FINANCE-TRACKER_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
